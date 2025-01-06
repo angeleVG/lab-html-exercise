@@ -40,12 +40,19 @@ header > div {
     max-height: 20px;
   }
 
-  .search-input {
-    width: 850px;
-    padding-left: 45px;
+  form {
+    background-color: #F2F2F2;
+    display: flex;
+    border: none;
+    margin-right: 20px;
+  }
+
+  .search-input{
     background: url('images/magnifying-glass.png') no-repeat 5px center;
     background-size: 20px 20px;
-    background-color: lightgray;
+    width: 880px;
+    height: 30px;
+    padding-left: 30px;
     border: none;
   }
 
@@ -54,11 +61,15 @@ header > div {
     color: white;
     border: none;
     padding: 5px 10px;
-    margin-right: 40px;
   }
 
-.joinandlogin {
-    padding: 5px 10px;
+.join-and-login-container button {
+    padding: 4px 10px;
+}
+
+#login {
+border: none;
+background-color: white;
 }
 
 #section1 {
@@ -97,6 +108,7 @@ width: 500px;
 #button-red {
   background-color: #FB3B49;
   color: white;
+  box-shadow: 8px 8px rgba(251, 59, 73, 0.2);
 }
 
 #button-white {
@@ -121,12 +133,13 @@ height: 220px;
   h2 {
     font-size: 35px;
     padding: 0px 30px;
-   background-color: rgb(237, 212, 131);
+    background-color: #FEEBB5
   }
 
 #section2 article {
   width: 600px;
   margin-top: 15px;
+  margin-bottom: 30px;
   }
 
 #section3 {
@@ -144,7 +157,7 @@ gap: 40px;
 }
 
 h3 {
-  color: red
+  color: #ED1C24;
 }
 
 .button-element {
@@ -154,8 +167,10 @@ h3 {
 }
 
 .button-element button {
+  font-weight: bold;
   background-color: black;
   color: white;
   padding: 10px 90px;
   font-size: medium;
+  box-shadow: 5px 5px rgba(128, 83, 35, 0.2);
 }
